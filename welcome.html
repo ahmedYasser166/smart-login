@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome home</title>
+    <!-- ===============links========== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script
+      src="https://kit.fontawesome.com/722d0ad37e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg naav">
+      <div class="container">
+        <h3 class="navbar-brand text-white" href="#">SMART LOGIN</h3>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <button
+              id="btnout"
+              onclick="btnoout()"
+              class="btn btn-outline-warning"
+            >
+              Logout
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="d-flex justify-content-center align-items-center welhome">
+      <div class="welcom p-5 text-center">
+        <h1 id="welcomeMessage"></h1>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+    <!-- =============== js=============== -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

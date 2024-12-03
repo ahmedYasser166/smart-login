@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>smart login</title>
+    <!-- ===============links========== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script
+      src="https://kit.fontawesome.com/722d0ad37e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- ===============links========== -->
+  </head>
+  <body>
+    <div class="login-1 container d-flex p-4 align-items-center flex-column">
+      <h1>Smart Login System</h1>
+      <input
+        class="form-control p-3"
+        placeholder="Enter your name"
+        type="text"
+        id="nameUp"
+      />
+      <input
+        class="form-control p-3 my-3"
+        placeholder="Enter your email"
+        type="email"
+        id="emailUp"
+      />
+      <input
+        class="form-control p-3"
+        placeholder="Enter your password"
+        type="password"
+        id="passUp"
+      />
+      <button
+        id="btnLogup"
+        onclick="up()"
+        class="btn-in btn w-100 btn-outline-info"
+      >
+        Log Up
+      </button>
+      <p class="error" id="signupError"></p>
+      <p>Don’t have an account? <a href="index.html">Signin</a></p>
+    </div>
+    <!-- =============== js=============== -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

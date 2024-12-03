@@ -1,0 +1,65 @@
+body {
+  background-color: #24353f;
+}
+.login-1 {
+  width: 50%;
+
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 5px 2px 80px -15px black;
+}
+.login-1 h1 {
+  color: #17a2b8;
+  margin-bottom: 40px;
+}
+input {
+  background-color: #24353f !important;
+  color: white !important;
+  width: 90%;
+  border-radius: 8px;
+  height: 40px !important;
+}
+button {
+  height: 40px !important;
+  background-color: #24353f;
+  color: #17a2b8;
+  border: #17a2b8;
+  font-size: 20px;
+  border-radius: 8px;
+}
+::placeholder {
+  color: #b6b6b6 !important;
+  font-size: 20px;
+}
+p {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+a:hover {
+  text-decoration: underline;
+}
+.btn-in {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.naav {
+  box-shadow: 5px 2px 80px 5px black;
+}
+.naav a {
+  color: white;
+}
+.welhome {
+  height: 90vh;
+}
+.welcom {
+  width: 50%;
+  box-shadow: 5px 2px 80px -15px black;
+}
+.welcom h1 {
+  color: #17a2b8;
+  z-index: 1000;
+}
